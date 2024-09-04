@@ -1,0 +1,60 @@
+.lane-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+h1{
+  text-align: center;
+}
+
+.lane {
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 5px;
+}
+
+.lane img {
+  width: 150px;
+  height: 150px;
+}
+
+.traffic-light {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+  
+}
